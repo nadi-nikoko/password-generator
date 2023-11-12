@@ -1,0 +1,43 @@
+body {
+    margin: 50px;
+    background: #1F2937;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#password-one, #password-two{
+    background: #273549;
+    width: 200px;
+    display: inline-block;
+    color:#10B981;
+    text-align: center;
+}
+
+button{
+    background: #10B981;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: CursedTimer;
+    border: 0px;
+    border-radius: 4px;
+    text-shadow: 0px 0px 10px #273549;
+}
+
+#password-one::before, #password-two::before {
+    content: "\00a0";
+}
+
+#color-password{
+    color:#10B981;
+}
+
+@font-face {
+    font-family: CursedTimer;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+#trippy-font{
+    font-family: CursedTimer;
+}
